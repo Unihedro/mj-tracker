@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MJ TRACKER</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="main.js"></script>
+</head>
+<body>
+  <div id="container-east" class="c">
+  <span id="box-east" class="b"><span class="text"><a id="label-east" href="#" onclick="touched('east',false);return false">東</a><br><a id="ctx-east" href="#" onclick="touched('east',true);return false">25000</a></span></span>
+  </div>
+  <div id="container-south" class="c">
+  <span id="box-south" class="b"><span class="text"><a id="label-south" href="#" onclick="touched('south',false);return false">南</a><br><a id="ctx-south" href="#" onclick="touched('south',true);return false">25000</a></span></span>
+  </div>
+  <div id="container-west" class="c">
+  <span id="box-west" class="b"><span class="text"><a id="label-west" href="#" onclick="touched('west',false);return false">西</a><br><a id="ctx-west" href="#" onclick="touched('west',true);return false">25000</a></span></span>
+  </div>
+  <div id="container-north" class="c">
+  <span id="box-north" class="b"><span class="text"><a id="label-north" href="#" onclick="touched('north',false);return false">北</a><br><a id="ctx-north" href="#" onclick="touched('north',true);return false">25000</a></span></span>
+  </div>
+  <span id="center"><a id="round" href="#" onclick="changeWind();return false">東</a> <a id="count" href="#" onclick="changeRound();return false">1</a> 局</span>
+</body>
+</html>

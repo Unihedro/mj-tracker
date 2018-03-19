@@ -1,0 +1,49 @@
+body {
+  font-family: Monospace;
+  font-size: 10vh;
+}
+html {
+  background: black;
+  color: white;
+}
+a {color:#ddd}
+.b,.text {
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+.text{pointer-events: all;}
+#box-east {
+  transform: rotate(180deg);
+  transform-origin: 50% 50%;
+}
+#box-south{
+  float: left;padding-top: 40vh;
+}
+#box-south > .text {
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+}
+.c {top:0;left:0;
+    /* float: left; */
+    position: absolute;
+    /* padding-top: 0vh; */
+    height: 100vh;
+    display: block;
+    width: 100vw;pointer-events: none;
+}
+#box-west {    padding-top: 70vh;
+    display: block;
+}
+#box-north {float:right;padding-top: 40vh;
+}
+#box-north >.text{  transform: rotate(270deg);
+  transform-origin: 50% 50%;
+}
+#center{margin: auto;
+    display: block;
+    /* height: 100vh; */
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 40vh;
+}
